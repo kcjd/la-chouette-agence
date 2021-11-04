@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
+  color: #575757;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +22,12 @@ button {
   transition: all 0.3s ease-in-out;
 }
 
+a {
+  color: #575757;
+}
+
 a:hover {
+  color: #333;
   text-decoration: none;
   cursor: pointer;
 }
@@ -116,10 +122,6 @@ blockquote {
   background-attachment: fixed;
 }
 
-.d-bloc {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -134,40 +136,6 @@ blockquote {
 
 .d-bloc .divider-h span {
   border-color: rgba(255, 255, 255, 0.2);
-}
-
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -208,11 +176,6 @@ blockquote {
 .d-bloc .panel .btn-wire:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .d-bloc .panel button:hover,
@@ -474,7 +437,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
   color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .btn-rd {
@@ -551,7 +514,6 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
   content: '+';
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -559,7 +521,6 @@ a[data-lightbox]:hover::before {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  font-weight: 100;
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -591,7 +552,6 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
   padding: 20px;
-  color: #fff;
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 15px;
@@ -606,11 +566,11 @@ a[data-lightbox]:hover img {
   top: 20px;
   right: 20px;
   z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .close-lightbox:hover,
@@ -623,13 +583,13 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
   transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 0.9;
 }
 
 .next-lightbox {
@@ -648,21 +608,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
   padding: 0;
-  color: rgba(0, 0, 0, 0.5);
   background: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-  color: #575757 !important;
 }
 
 .container {
@@ -696,12 +642,10 @@ a {
 
 .h1 {
   font-size: 20px;
-  font-family: 'Open Sans';
 }
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -732,10 +676,6 @@ h3 {
   box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-  color: #333333 !important;
-}
-
 h4 {
   color: #333333 !important;
 }
@@ -763,12 +703,12 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgb(126, 116, 96);
   padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
-  font-weight: 900;
+  font-weight: 600;
   text-decoration: underline !important;
 }
 
@@ -785,17 +725,28 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #fff;
+}
+
+.tc-dark {
+  color: #333;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #333;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
+  background: #f8a884;
+}
+
+.ltc-dark {
+  color: #333;
+}
+
+.ltc-dark:hover {
+  color: #111;
 }
 
 .ltc-white {
@@ -803,7 +754,7 @@ h4 {
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #ebebeb !important;
 }
 
 .ltc-atomic-tangerine {
