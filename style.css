@@ -17,6 +17,11 @@ h6 {
   font-weight: 500;
 }
 
+footer h2 {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
