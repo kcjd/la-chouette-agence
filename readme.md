@@ -4,6 +4,8 @@ Projet OpenClassrooms. L'objectif est d'optimiser un site web existant.
 
 ## SEO
 
+- Attribut `lang="fr"` ajouté
+
 - Balises `title` et `meta description` ajoutées
 
 - Liens brisés corrigés ou supprimés
@@ -13,8 +15,6 @@ Projet OpenClassrooms. L'objectif est d'optimiser un site web existant.
 - URL non sémantiques modifiées
 
 - Balises HTML sémantiques ajoutées
-
-- Outil analytics mis en place
 
 ## Accessibilité
 
