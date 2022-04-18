@@ -1,6 +1,8 @@
 # La chouette agence
 
-Projet OpenClassrooms. L'objectif est d'optimiser un site web existant.
+Optimisation du site web de la Chouette agence, agence de webdesign à Lyon.
+
+👉 https://kcjd.github.io/la-chouette-agence
 
 ## SEO
 
@@ -24,6 +26,6 @@ Projet OpenClassrooms. L'objectif est d'optimiser un site web existant.
 
 ## Performance
 
-- Images redimensionnées et compressées
+- Optimisation des images
 
 - Fichiers CSS et JavaScript minifiés
